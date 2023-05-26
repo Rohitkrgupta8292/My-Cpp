@@ -1,8 +1,10 @@
 #include <iostream>
-using namespase std;
+using namespace std;
 
-int main() {
-  int a.b.c;
+int main()
+{
+  int a,b,c;
+  cin>>a>>b>>c;
   
   if (a>b)
   {
@@ -12,10 +14,11 @@ int main() {
     }  
     else
     {
-      cout<<c<<end;
+      cout<<c<<endl;
     }
- else
- {
+  }  
+  else
+  {
    if (b>c)
    {
      cout<<b<<endl;
@@ -24,11 +27,7 @@ int main() {
    {
      cout<<c<<endl;
    }
- }
-    
+  }   
  return 0;
-  }  
+}  
     
-    
-    
- 
