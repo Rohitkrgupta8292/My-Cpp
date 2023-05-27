@@ -8,9 +8,9 @@ int main()
          freopen("output.txt", "w", stdout);
     #endif
 
-    int a,b;
-      cin>>a>>b;
-      cout<<a+b<<endl;
+    int a,b,c;
+      cin>>a>>b>>c;
+      cout<<a+b+c<<endl;
 
       return 0;
 }
