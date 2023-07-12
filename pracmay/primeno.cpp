@@ -4,11 +4,11 @@ using namespace std;
 
 int main()
 {
-    int n,i;
+    int n, i;
     cout<<"N: ";
     cin>>n;
 
-    for( i=2; i<n; i++)
+    for(i=2; i<n; i++)
     {
         if(n%i==0)
         {
