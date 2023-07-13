@@ -3,9 +3,7 @@
 
 int main()
 {
-    int n,sum = 0;
-    printf("Enter the number: ");
-    scanf("%d", &n);
+    int n = 20,sum = 0;
 
     for(int i=1; i<=n;i++)
     {
